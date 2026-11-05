@@ -73,6 +73,32 @@ footer{background:#07152b;color:#d5ddeb;padding:28px 0;font-size:13px}
 .whatsapp{position:fixed;bottom:20px;right:20px;background:#168c55;color:white;padding:13px 17px;border-radius:30px;font-weight:bold;z-index:20}
 @media(max-width:900px){nav{display:none;position:absolute;top:76px;left:0;right:0;background:white;padding:20px;flex-direction:column}nav.open{display:flex}.menu-btn{display:block}.nav>.cta{display:none}}
 @media(max-width:700px){.grid,.split,.contact-panel{grid-template-columns:1fr}.hero{min-height:480px}.stats{grid-template-columns:1fr}.hero-inner{padding:60px 0}}
+/* Prop International header logo fix */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand .brand-logo {
+  width: 58px !important;
+  height: 58px !important;
+  max-width: 58px;
+  object-fit: contain;
+  flex: 0 0 58px;
+  display: block;
+}
+
+.brand > span {
+  display: block;
+  line-height: 1.3;
+}
+
+.brand small {
+  display: block;
+}
+
+
 </style>
 </head>
 <body>
